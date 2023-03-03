@@ -1,0 +1,115 @@
+﻿
+body {
+    background: #f2f0f0;
+    min-width: 100vw;
+    min-height: 100vh;
+    margin-top:150px;
+    justify-content: center;
+    align-items: center;
+}
+.priceTable {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 7px 30px rgba(52, 13, 135, 0.3);
+}
+
+.comparisonTable {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: auto;
+    
+}
+
+.product {
+    background-color: #452b30;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 15px 0px;
+    text-align: center;
+}
+.companyName {
+    background-color: #633d44;
+    font-size: 18px;
+    color: white;
+}
+.priceInfo {
+    padding: 50px 0px 50px 0px;
+    font-size: 36px;
+    border: 0px solid #E8E8E8;
+    background-color: #633d44;
+    color: #fff;
+    text-align: center;
+}
+.priceA, .priceB, .priceC {
+    padding: 50px 0px 50px 0px;
+    font-size: 36px;
+    color: #545454;
+    border: 0px solid #E8E8E8;
+    background-color: #86a6bd;
+    text-align: center;
+}
+.monthPrice span {
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.comparisonTable td {
+    border-right: 1px solid #E8E8E8;
+    empty-cells: show;
+    padding: 15px;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    color: #808080;
+    font-size: 16px;
+}
+
+.priceTable tbody tr:nth-child(odd) {
+    display: none;
+}
+.compareRow {
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+.priceTable tr {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.true {
+    color: green;
+    font-size:25px;
+}
+
+.false {
+    color: red;
+    font-size:25px;
+}
+
+.button {
+    background: #1c1214;
+    padding: 10px 20px;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin: 5px 0 10px 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+    .button:hover {
+        background: #9e0320;
+    }
